@@ -143,7 +143,7 @@ span {
 
   }
 
-  width: 240px;
+  width: 260px;
 
   border: 1px solid #ccc;
 }
