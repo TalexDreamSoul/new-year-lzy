@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': ^7.12.16
   '@babel/eslint-parser': ^7.12.16
+  '@fireworks-js/vue': ^2.10.0
   '@vue/cli-plugin-babel': ~5.0.0
   '@vue/cli-plugin-eslint': ~5.0.0
   '@vue/cli-plugin-router': ~5.0.0
@@ -10,13 +11,18 @@ specifiers:
   core-js: ^3.8.3
   eslint: ^7.32.0
   eslint-plugin-vue: ^8.0.3
+  fireworks-js: ^2.10.0
+  gsap: ^3.11.4
   sass: ^1.32.7
   sass-loader: ^12.0.0
   vue: ^3.2.13
   vue-router: ^4.0.3
 
 dependencies:
+  '@fireworks-js/vue': 2.10.0_vue@3.2.45
   core-js: 3.27.1
+  fireworks-js: 2.10.0
+  gsap: 3.11.4
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
@@ -1276,6 +1282,15 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fireworks-js/vue/2.10.0_vue@3.2.45:
+    resolution: {integrity: sha512-49waGu0x/XFrDkqaEH1+Qqw7M+BCo6Z30lOcabv6fbH5iRi2gyCU0iV2WvX2pbDVILPzQpuHerU4FGHgwLIsVw==}
+    peerDependencies:
+      vue: '>=2.7.0'
+    dependencies:
+      fireworks-js: 2.10.0
+      vue: 3.2.45
+    dev: false
 
   /@hapi/hoek/9.3.0:
     resolution: {integrity: sha512-/c6rf4UJlmHlC9b5BaNvzAcFv7HZ2QHaV0D4/HNlBdvFnvQq8RI4kYdhyPCl7Xj+oWvTWQ8ujhqS53LIgAe6KQ==}
@@ -3880,6 +3895,10 @@ packages:
       path-exists: 4.0.0
     dev: true
 
+  /fireworks-js/2.10.0:
+    resolution: {integrity: sha512-SC5pGAwLDGo92FN9WmflM6fMB0vOyrTauUd/pn6rKIb0/NQ0z2R6CYqSQ4rxRl5qdHVdKbeYw01Wdnfd87ETTg==}
+    dev: false
+
   /flat-cache/3.0.4:
     resolution: {integrity: sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==}
     engines: {node: ^10.12.0 || >=12.0.0}
@@ -4043,6 +4062,10 @@ packages:
   /graceful-fs/4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
     dev: true
+
+  /gsap/3.11.4:
+    resolution: {integrity: sha512-McHhEguHyExMMnjqKA8G+7TvxmlKQGMbjgwAilnFe1e4id7V/tFveRQ2YMZhTYu0oxHGWvbPltdVYQOu3z1SCA==}
+    dev: false
 
   /gzip-size/6.0.0:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==}
